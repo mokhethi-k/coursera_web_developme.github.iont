@@ -1,0 +1,77 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header, footer {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 24px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero {
+    /* Styles for the hero section */
+}
+
+.about {
+    /* Styles for the about section */
+}
+
+.services {
+    /* Styles for the services section */
+}
+
+.testimonials {
+    /* Styles for the testimonials section */
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social {
+    list-style: none;
+    padding: 0;
+}
+
+.social li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.social li a {
+    color: #fff;
+    text-decoration: none;
+}
